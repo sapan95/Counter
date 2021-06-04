@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.container{
+  height: 8%;
+  border: 1px solid #a54946;
+  border-radius: 12px;
+}
+input:focus{
+  outline: none;
+}
+.item{
+  border: none;
+  height: 100%;
+  width: 32.85%;
+  color:#a54946;
+  font-size: 1.2em;
+}
+.input_field {
+  height: 96%;
+  text-align: center;
+}
+.minus{
+  cursor: pointer;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: white;
+  border-right: 1px solid #a54946;
+} 
+.plus{
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: white;
+  border-left: 1px solid #a54946;
+}
+.plus:hover, .minus:hover{
+  background: #a54946;
+  color: white;
+}
